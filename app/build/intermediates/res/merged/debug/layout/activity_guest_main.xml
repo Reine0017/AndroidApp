@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/isg_launcher" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/Guest_Main_Start"
+        android:background="@drawable/buttons"
+        android:textColorHint="@color/White"
+        android:textSize="30sp"
+        android:onClick="startApplication"/>
+
+    <Button
+        android:id="@+id/button_help_guide"
+        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:hint="@string/Guest_Main_Help_Guide"
+        android:background="@drawable/buttons"
+        android:textColorHint="@color/White"
+        android:textSize="30sp"
+        android:onClick="helpStart"/>
+
+</RelativeLayout>
+

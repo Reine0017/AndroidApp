@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\image_add_button.png",
+        "source": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\image_add_button.png"
+    },
+    {
+        "merged": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\isg_logo.png",
+        "source": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\isg_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\isg_launcher.png",
+        "source": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\isg_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\logo.png",
+        "source": "C:\\Users\\soh\\AndroidStudioProjects\\Cz2006testapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo.png"
+    }
+]

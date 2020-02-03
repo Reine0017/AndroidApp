@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="citizen">
+        <item>@string/Citizen0</item>
+        <item>@string/Citizen1</item>
+        <item>@string/Citizen2</item>
+        <item>@string/Citizen3</item>
+    </string-array>
+
+    <string-array name="firstTime">
+        <item>@string/Num_Time</item>
+        <item>@string/First_Time</item>
+        <item>@string/Second_Time</item>
+        <item>@string/Third_Time</item>
+    </string-array>
+
+</resources>

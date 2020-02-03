@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_district_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <ScrollView
+        android:id="@+id/scroll_view_district__map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="64dp"
+        tools:context="com.example.soh.cz2006testapp.District_Map">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                 <ImageView
+                     android:id="@+id/image_view_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/singapore_district_map" />
+
+                    <Button
+                        android:id="@+id/button_district_1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="620dp"
+                        android:layout_marginTop="530dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="566dp"
+                        android:layout_marginTop="550dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_3"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="470dp"
+                        android:layout_marginTop="500dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_4"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="490dp"
+                        android:layout_marginTop="550dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_5"
+                        android:layout_width="100dp"
+                        android:layout_height="110dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="350dp"
+                        android:layout_marginTop="470dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_6"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="590dp"
+                        android:layout_marginTop="510dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_7"
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="600dp"
+                        android:layout_marginTop="490dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_8"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="600dp"
+                        android:layout_marginTop="450dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_9"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="550dp"
+                        android:layout_marginTop="450dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_10"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="430dp"
+                        android:layout_marginTop="430dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_11"
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="460dp"
+                        android:layout_marginTop="370dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_12"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="600dp"
+                        android:layout_marginTop="390dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_13"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="650dp"
+                        android:layout_marginTop="370dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_14"
+                        android:layout_width="80dp"
+                        android:layout_height="75dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="720dp"
+                        android:layout_marginTop="370dp" />
+
+                    <Button
+                        android:id="@+id/button_district_15"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="710dp"
+                        android:layout_marginTop="450dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_16"
+                        android:layout_width="140dp"
+                        android:layout_height="130dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="800dp"
+                        android:layout_marginTop="350dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_17"
+                        android:layout_width="120dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="930dp"
+                        android:layout_marginTop="250dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_18"
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="800dp"
+                        android:layout_marginTop="250dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_19"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="650dp"
+                        android:layout_marginTop="270dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_20"
+                        android:layout_width="190dp"
+                        android:layout_height="80dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="450dp"
+                        android:layout_marginTop="290dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_21"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="340dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_22"
+                        android:layout_width="225dp"
+                        android:layout_height="180dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop='330dp' />
+
+                    <Button
+                        android:id="@+id/button_district_23"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="230dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_24"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="135dp"
+                        android:layout_marginTop="100dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_25"
+                        android:layout_width="120dp"
+                        android:layout_height="130dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="100dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_26"
+                        android:layout_width="120dp"
+                        android:layout_height="130dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="440dp"
+                        android:layout_marginTop="150dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_27"
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="450dp"
+                        android:layout_marginTop="50dp"/>
+
+                    <Button
+                        android:id="@+id/button_district_28"
+                        android:layout_width="90dp"
+                        android:layout_height="130dp"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="600dp"
+                        android:layout_marginTop="150dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_1"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="590dp"
+                        android:layout_marginTop="480dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_2"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="540dp"
+                        android:layout_marginTop="500dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_3"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="480dp"
+                        android:layout_marginTop="470dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_4"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="455dp"
+                        android:layout_marginTop="500dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_5"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="370dp"
+                        android:layout_marginTop="430dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_6"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="555dp"
+                        android:layout_marginTop="460dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_7"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="575dp"
+                        android:layout_marginTop="440dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_8"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="570dp"
+                        android:layout_marginTop="390dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_9"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="530dp"
+                        android:layout_marginTop="420dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_10"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="440dp"
+                        android:layout_marginTop="390dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_11"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="470dp"
+                        android:layout_marginTop="330dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_12"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="560dp"
+                        android:layout_marginTop="330dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_13"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="630dp"
+                        android:layout_marginTop="330dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_14"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="700dp"
+                        android:layout_marginTop="340dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_15"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="700dp"
+                        android:layout_marginTop="405dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_16"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="810dp"
+                        android:layout_marginTop="330dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_17"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="915dp"
+                        android:layout_marginTop="260dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_18"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="780dp"
+                        android:layout_marginTop="230dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_19"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="650dp"
+                        android:layout_marginTop="250dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_20"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="500dp"
+                        android:layout_marginTop="260dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_21"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="310dp"
+                        android:layout_marginTop="320dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_22"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="320dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_23"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="310dp"
+                        android:layout_marginTop="220dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_24"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="120dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_25"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="100dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_26"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="430dp"
+                        android:layout_marginTop="150dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_27"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="480dp"
+                        android:layout_marginTop="20dp"/>
+
+                    <TextView
+                        android:id="@+id/text_view_district_28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/District_28"
+                        android:textColorHint="@color/White"
+                        android:background="@drawable/buttons"
+                        android:visibility="gone"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="600dp"
+                        android:layout_marginTop="140dp"/>
+
+                    <Button
+                        android:id="@+id/button_view_all_property"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="700dp"
+                        android:hint="@string/District_Map_View_All"
+                        android:background="@drawable/buttons"
+                        android:textColorHint="@color/White"
+                        android:layout_centerHorizontal="true"
+                        android:onClick="propertyList" />
+
+                </RelativeLayout>
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view_district_map"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/logged_in_navigation" >
+
+    </android.support.design.widget.NavigationView>
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.v4.widget.DrawerLayout>

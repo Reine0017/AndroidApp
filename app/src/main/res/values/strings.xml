@@ -1,0 +1,302 @@
+<resources>
+    <!--Activity title -->
+    <string name="app_name">ISG</string>
+    <string name="Guest_Main_Help_Guide">Help guide</string>
+    <string name="Input_Form">Input Form</string>
+    <string name="Public_Property_Guide">Guide to Buying Public Property</string>
+    <string name="Private_Property_Guide">Guide to Buying Private Property</string>
+    <string name="Login_Form_Login">Login</string>
+    <string name="District_Map">District Map</string>
+    <string name="All_Calculator">Rent-or-Buy Calculator</string>
+    <string name="Guide_Option">Guide Options</string>
+    <string name="Register_Form_Register">Register</string>
+    <string name="District_Control">District Control</string>
+
+    <!--Not being used -->
+    <string name="Buy_or_Rent">Buy or Rent calculator</string>
+    <string name="title_activity_help_guide_scroll">Help_guide_scroll</string>
+
+    <!--TODO: Currently in input_form.xml, change/delete later-->
+    <string name="Property_Price">Property Price</string>
+    <string name="Citizenship">Citizenship: </string>
+
+    <string name="Help_text"> help guide to be added </string>
+    <string name="Public_Property_Guide_text">public property guide to be added</string>
+    <string name="Private_Property_Guide_text">private property guide to be added</string>
+    <string name="Register_Success">Account Successfully Created!</string>
+
+    <string name="All_Email">Email</string>
+    <string name="All_Password">Password</string>
+    <string name="All_Display_Name">Display Name</string>
+    <string name="Name">Name</string>
+    <string name="Message">Message</string>
+
+    <string name="All_Post_Title">Post Title</string>
+    <string name="Post_Listing_Form_Address">Address</string>
+    <string name="Post_Listing_Form_Price">Price</string>
+    <string name="All_District">District</string>
+    <string name="Post_Listing_Form_No._of_Room">No. of Rooms</string>
+    <string name="Post_Listing_Form_Size">Size (sqft)</string>
+    <string name="Post_Listing_Form_Tenure">Tenure</string>
+    <string name="Post_Listing_Form_Amenities">Amenities</string>
+    <string name="All_Post_Price">Post Price</string>
+
+    <string name="Single_Post_Listing_Price">Price: $</string>
+    <string name="Single_Post_Listing_Address">Address: </string>
+    <string name="Single_Post_Listing_District">District: </string>
+    <string name="Single_Post_Listing_Size">Size (sqft): </string>
+    <string name="Single_Post_Listing_No._of_Room">No. of Rooms: </string>
+    <string name="Single_Post_Listing_Tenure">Tenure: </string>
+    <string name="Single_Post_Listing_Amenities">Amenities: </string>
+
+    <!--Remaining navigation string-->
+    <string name="All_Messages">View Messages</string>
+    <string name="Start_Menu">Start Menu</string>
+    <string name="Main_Menu">Main Menu</string>
+    <string name="Listed_Property">Your Listed Property</string>
+    <string name="Sign_Out">Sign Out</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!--Button list-->
+    <string name="Enter">Enter</string>
+    <string name="Submit">Submit</string>
+    <string name="Result">Result</string>
+    <string name="All_Continue">Continue</string>
+    <string name="District_Map_View_All">View All</string>
+    <string name="Login_Form_Register_Transfer">Register here</string>
+    <string name="Guest_Main_Start">Start</string>
+    <string name="Help_Guide">User\'s Help Guide</string>
+    <string name="All_View_Property">View Property</string>
+    <string name="All_List_Property">Post Property</string>
+    <string name="All_Calculate_Button">Calculate</string>
+
+
+    <!--TODO: change to district name-->
+    <string name="District_1">City - Marina Area</string>
+    <string name="District_2">City - CBD</string>
+    <string name="District_3">Central South</string>
+    <string name="District_4">South - Keppel</string>
+    <string name="District_5">South West</string>
+    <string name="District_6">City - City Hall</string>
+    <string name="District_7">City- Beach Road</string>
+    <string name="District_8">Central - Little India</string>
+    <string name="District_9">Central - Orchard</string>
+    <string name="District_10">Central: Tanglin</string>
+    <string name="District_11">Central - Newton</string>
+    <string name="District_12">Central - Toa Payoh</string>
+    <string name="District_13">Central East</string>
+    <string name="District_14">Central East - Eunos</string>
+    <string name="District_15">East Coast - Katong</string>
+    <string name="District_16">Upper East Coast</string>
+    <string name="District_17">Far East - Changi</string>
+    <string name="District_18">Far East - Tampines</string>
+    <string name="District_19">North East - Hougang</string>
+    <string name="District_20">Central North - AMK</string>
+    <string name="District_21">Central West</string>
+    <string name="District_22">Far West - Jurong</string>
+    <string name="District_23">North West</string>
+    <string name="District_24">Far North West</string>
+    <string name="District_25">Far North</string>
+    <string name="District_26">North</string>
+    <string name="District_27">Far North - Yishun</string>
+    <string name="District_28">North East - Seletar</string>
+
+    <string-array name="district">
+        <item>District 1 - City - Marina Area</item>
+        <item>District 2 - City - CBD</item>
+        <item>District 3 - Central South</item>
+        <item>District 4 - South - Keppel</item>
+        <item>District 5 - South West</item>
+        <item>District 6 - City - City Hall</item>
+        <item>District 7 - City- Beach Road</item>
+        <item>District 8 - Central - Little India</item>
+        <item>District 9 - Central - Orchard</item>
+        <item>District 10 - Central: Tanglin</item>
+        <item>District 11 - Central - Newton</item>
+        <item>District 12 - Central - Toa Payoh</item>
+        <item>District 13 - Central East</item>
+        <item>District 14 - Central East - Eunos</item>
+        <item>District 15 - East Coast - Katong</item>
+        <item>District 16 - Upper East Coast</item>
+        <item>District 17 - Far East - Changi</item>
+        <item>District 18 - Far East - Tampines</item>
+        <item>District 19 - North East - Hougang</item>
+        <item>District 20 - Central North - AMK</item>
+        <item>District 21 - Central West</item>
+        <item>District 22 - Far West - Jurong</item>
+        <item>District 23 - North West</item>
+        <item>District 24 - Far North West</item>
+        <item>District 25 - Far North</item>
+        <item>District 26 - North</item>
+        <item>District 27 - Far North - Yishun</item>
+        <item>District 28 - North East - Seletar</item>
+    </string-array>
+
+    <string-array name="rooms">
+        <item>1 Room</item>
+        <item>2 Rooms</item>
+        <item>3 Rooms</item>
+        <item>4 Rooms</item>
+        <item>5 Rooms</item>
+    </string-array>
+
+    <string-array name="tenure">
+        <item>99 Years</item>
+        <item>103 Years</item>
+        <item>999 Years</item>
+        <item>Freehold</item>
+    </string-array>
+
+    <string-array name="sell_rent">
+        <item>Select Selling/Renting</item>
+        <item>Selling</item>
+        <item>Renting</item>
+    </string-array>
+
+    <string name="Stamp_Duty">STAMP DUTY</string>
+    <string name="CPI">CONSUME PRICE INDEX</string>
+    <string name="All_Stamp_Duty">Stamp Duty</string>
+    <string name="All_Consumer_Price_Index">Consumer Price Index</string>
+
+    <!-- calculator form edit text string -->
+    <string name="Calculator_Form_Info">Please Fill in The Form</string>
+    <string name="Calculator_Form_Name">Your Name</string>
+    <string name="Calculator_Form_IC">Your IC/FIN</string>
+    <string name="Calculator_Form_Period">Enter Duration of Stay in Years</string>
+    <string name="Calculator_Form_Start_Date">Start of Stay</string>
+    <string name="Calculator_Form_End_Date">End of Stay</string>
+    <string name="Calculator_Form_Price_Input">Enter Price of Property</string>
+    <string name="Down_Payment_in_Percent">Enter Down Payment in %</string>
+    <string name="Calculator_Form_Down_Payment">Enter Down Payment</string>
+    <string name="Calculator_Form_Mortage_Rate">Enter Mortgage Rate</string>
+    <string name="Calculator_Form_Mortgage_Duration">Enter Mortgage Duration in Years</string>
+    <string name="Calculator_Form_Investment_Growth_Rate">Enter Investment Growth</string>
+    <string name="Calculator_Form_Annual_Value">Enter Annual Value of House</string>
+    <string name="Calculator_Form_Maintainence_Fee">Enter Maintainence Fee</string>
+    <string name="Calculator_Form_Monthly_Utilities">Enter Monthly Utilities</string>
+    <string name="Calculator_Form_Home_Insurance">Enter HomeOwner\'s Insurance</string>
+    <string name="Calculator_Form_Security_Deposit">Enter Security deposit</string>
+    <string name="Calculator_Form_Broker_Fee">Enter Broker\'s Fee</string>
+    <string name="Calculator_Form_Rental_Insurance">Enter Rental Insurance</string>
+
+    <!--calculator form text view string-->
+    <string name="Calculator_Form_First_Time_Text">Number of Purchases</string>
+    <string name="Calculator_Form_Citizen_Text">Citizenship</string>
+    <string name="Calculator_Form_Period_Text">Duration of Stay in Years</string>
+    <string name="Calculator_Form_Price_Text">Price of Property</string>
+    <string name="Calculator_Form_Down_Payment_Text">Down Payment in %</string>
+    <string name="Calculator_Form_Mortage_Rate_Text">Mortgage Rate</string>
+    <string name="Calculator_Form_Mortgage_Duration_Text">Mortgage Duration in Years</string>
+    <string name="Calculator_Form_Investment_Growth_Rate_Text">Investment Growth</string>
+    <string name="Calculator_Form_Annual_Value_Text">Annual Value of House</string>
+    <string name="Calculator_Form_Maintainence_Fee_Text">Maintainence Fee</string>
+    <string name="Calculator_Form_Monthly_Utilities_Text">Monthly Utilities</string>
+    <string name="Calculator_Form_Home_Insurance_Text">HomeOwner\'s Insurance</string>
+    <string name="Calculator_Form_Security_Deposit_Text">Security deposit</string>
+    <string name="Calculator_Form_Broker_Fee_Text">Broker\'s Fee</string>
+    <string name="Calculator_Form_Rental_Insurance_Text">Rental Insurance</string>
+
+    <string name="Citizen0">Select Citizenship</string>
+    <string name="Citizen1">Singaporean</string>
+    <string name="Citizen2">Permanent Resident</string>
+    <string name="Citizen3">Foreigner</string>
+
+    <string name="Num_Time">Select Number of Purchases</string>
+    <string name="First_Time">First Time Buyer</string>
+    <string name="Second_Time">Second Time Buyer</string>
+    <string name="Third_Time">More Than 2 Times Buyer</string>
+
+    <string name="scroll_test">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>

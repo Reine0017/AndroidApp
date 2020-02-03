@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.soh.cz2006testapp">
+
+    <uses-sdk tools:overrideLibrary="com.firebase.ui,com.firebase.ui.auth" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/isg_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Guest_Main"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity
+            android:name=".Help_Guide"
+            android:label="@string/Help_Guide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Public_Property_Guide"
+            android:label="@string/Public_Property_Guide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Private_Property_Guide"
+            android:label="@string/Private_Property_Guide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        -->
+        <activity
+            android:name=".Login_Form"
+            android:label="@string/Login_Form_Login"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Guest_Main">
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.soh.cz2006testapp.Guest_Main" />
+        </activity>
+        <activity
+            android:name=".Register_Form"
+            android:label="@string/Register_Form_Register"
+            android:parentActivityName=".Login_Form">
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.soh.cz2006testapp.Login_Form" />
+        </activity>
+        <activity
+            android:name=".Member_Main"
+            android:label="@string/Main_Menu"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Calculator_Form"
+            android:label="@string/All_Calculator"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".District_Map"
+            android:label="@string/District_Map"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Guide_Control"
+            android:label="@string/Guide_Option"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Guest_Main">
+
+        <!-- Parent activity meta-data to support API level 7+ -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.soh.cz2006testapp.Guest_Main" />
+        </activity>
+        <activity
+            android:name=".View_Chat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chat"/>
+        <activity
+            android:name=".Post_Listing_Form"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View_Post"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Single_Post_Listing"
+            android:parentActivityName=".View_Post">
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.soh.cz2006testapp.View_Post" />
+        </activity>
+
+        <!--         <activity android:name=".Buy_Tab" /> -->
+        <!--         <activity android:name=".Rent_Tab" /> -->
+        <activity
+            android:name=".Tabs"
+            android:parentActivityName=".Calculator_Form"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.soh.cz2006testapp.Calculator_Form" />
+        </activity>
+        <activity
+            android:name=".View_User_Post"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

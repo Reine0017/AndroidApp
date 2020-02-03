@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_member_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_member_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="64dp"
+    tools:context="com.example.soh.cz2006testapp.Member_Main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_view_property"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/All_View_Property"
+        android:background="@drawable/buttons"
+        android:textColorHint="@color/White"
+        android:textSize="25sp"
+        android:onClick="viewProperty"/>
+
+    <Button
+        android:id="@+id/button_list_property"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_view_property"
+        android:layout_marginTop="30dp"
+        android:hint="@string/All_List_Property"
+        android:background="@drawable/buttons"
+        android:textColorHint="@color/White"
+        android:textSize="25sp"
+        android:onClick="listProperty"/>
+
+    <Button
+        android:id="@+id/button_calculator"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_list_property"
+        android:layout_marginTop="30dp"
+        android:hint="@string/All_Calculator"
+        android:background="@drawable/buttons"
+        android:textColorHint="@color/White"
+        android:textSize="25sp"
+        android:onClick="calculator"/>
+
+    <Button
+        android:id="@+id/button_message"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/button_calculator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="@string/All_Messages"
+        android:background="@drawable/buttons"
+        android:textColorHint="@color/White"
+        android:textSize="25sp"
+        android:onClick="message"/>
+    </RelativeLayout>
+
+</ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view_member_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/logged_in_navigation" >
+
+    </android.support.design.widget.NavigationView>
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.v4.widget.DrawerLayout>

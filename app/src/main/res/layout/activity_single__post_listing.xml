@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.soh.cz2006testapp.Single_Post_Listing">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/post_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/text_view_post_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_below="@+id/post_image"
+                android:text="@string/All_Post_Title"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_post_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/Single_Post_Listing_Price"
+                android:textSize="15sp"
+                android:layout_below="@+id/text_view_post_title"/>
+
+            <TextView
+                android:id="@+id/text_view_post_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_post_price"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:text="@string/Single_Post_Listing_Address" />
+
+            <TextView
+                android:id="@+id/text_view_post_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/text_view_post_add"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:text="@string/Single_Post_Listing_District" />
+
+            <TextView
+                android:id="@+id/text_view_post_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/text_view_post_district"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:text="@string/Single_Post_Listing_Size" />
+
+            <TextView
+                android:id="@+id/text_view_post_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/text_view_post_size"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:text="@string/Single_Post_Listing_No._of_Room" />
+
+            <TextView
+                android:id="@+id/text_view_post_tenure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/text_view_post_room"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:text="@string/Single_Post_Listing_Tenure" />
+
+            <RelativeLayout
+                android:id="@+id/amenities_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_post_tenure"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/text_view_post_amenities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="@string/Single_Post_Listing_Amenities"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:src="@drawable/ic_chat_white_24dp"
+        android:tint="@android:color/white"
+        app:fabSize="mini"/>
+</RelativeLayout>

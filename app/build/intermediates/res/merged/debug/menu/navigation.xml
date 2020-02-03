@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/users_help_guide"
+            android:title="@string/Help_Guide" />
+        <item
+            android:id="@+id/public_property_guide"
+            android:title="@string/Public_Property_Guide" />
+        <item
+            android:id="@+id/private_property_guide"
+            android:title="@string/Private_Property_Guide" />
+        <item
+            android:id="@+id/main_menu"
+            android:title="@string/Main_Menu" />
+    </group>
+</menu>
